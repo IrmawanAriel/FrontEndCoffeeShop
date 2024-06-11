@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&display=swap');
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    box-sizing: border-box;
+    align-items: center;
+
+    /* position: absolute; */
+    width: 100%;
+    height: 76px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}
+
+.nav-left-Item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.nav-left-subItem1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.itemTulisanCoffee {
+    width: 86px;
+    height: 29px;
+}
+
+.itemLogo {
+    width: 32px;
+    height: auto;
+}
+
+.nav-left-subItem2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 60px;
+
+    height: 32px;
+
+}
+
+.homeNav, .productNav {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.nav-right-Item {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.nav-right-subItem1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-right-subItem1 img{
+    width: 24px;
+    height: 24px;
+}
+
+.nav-right-subItem2 button {
+
+    font-family: 'Plus Jakarta Sans';
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 18px;
+    gap: 6px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    text-align: center;
+
+}
+
+.nav-right-subItem3 button {
+    
+    font-family: 'Plus Jakarta Sans';
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 18px;
+    gap: 6px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    text-align: center;
+    background: rgba(255, 137, 6, 1);
+    ;
+
+}
+
+.container-header {
+    position:relative;
+    width: 100%;
+    height: 305px;
+    box-sizing: border-box;
+    background: url(/images/HeaderProduct.png) no-repeat;
+}
+
+.text-header {
+
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    top: 50px;
+    padding-left: 130px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+}
+
+.todays-promo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px 25px 50px;
+}
+
+.todays-promo-text {
+    flex: 3;
+    flex-direction: row;
+    font-family: "Plus Jakarta Sans";
+    font-size: 48px;
+    font-weight: 500;
+    text-align: left;
+
+}
+
+
+.carousel-btn button {
+    border-radius: 50%;
+    width: 47px;
+    height: 47px;
+    border: none;
+}
+
+.carousel-btn img {
+    width: 16.35px;
+    height: 16.35px;
+}
+
+.flexPromo {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

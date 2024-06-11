@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&display=swap');
+
+
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.itemImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemImg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.itemForm{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.Regisform {
+  width: 100%;
+  padding: 0 5% 0 5%;
+}
+
+.Regisform button{
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  border-style: none;
+  background: rgba(255, 137, 6, 1);
+
+}
+
+.Regisform input{
+  width: 100%;
+  height: 30px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+.Regisform div{
+  margin-bottom: 13px;
+}
+
+.Regisform label, button{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20.16px;
+}
+
+.Regisform p {
+  font-size: 16px;
+  font-weight: 60;
+  line-height: 20.16px;
+}
+
+.Regisform label, p, h3, button{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.flex-logo {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 5%;
+}
+
+img.itemLogo {
+  width: 32px;
+  height: 32px;
+}
+
+img.itemTulisanCoffee{
+  height: 29px;
+  width: 86px;
+}
+
+.fullname {
+  background: url(icons/fullname.png) no-repeat left;
+  background-size: 20px;
+  background-position: 7px 7px;
+}
+
+.email {
+  background: url(icons/email.png) no-repeat left;
+  background-size: 20px;
+  background-position: 7px 7px;
+}
+
+.password {
+  background: url(icons/password.png) no-repeat left;
+  background-size: 20px;
+  background-position: 7px 7px;
+}
+
+.flex-form{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.itemForm{
+  gap: 30px;
+}
+
+.bottomLogin {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+.haveAccount a{
+  text-decoration: none;
+  color: rgba(255, 137, 6, 1);
+}
+
+.separator {
+  display: flex;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  flex-direction: row;
+}
+
+.line {
+  flex-grow: 1;
+  border: 1px;
+  width: 100%;
+  border-top: 1px solid #ccc;
+}
+
+.connectAccount {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+
+}
+
+.connectAccount button {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22.68px;
+  letter-spacing: 0.005em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.social-button {
+  width: 100%;
+  height: 64px;
+  gap: 14px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  border-color: rgba(0, 0, 0, 0.08);
+  top: 20px;
+  left: 127px;
+  gap: 22px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 5px;
+
+}
+
+.connectAccount img {
+  width: 24px;
+  height: auto;
+}
