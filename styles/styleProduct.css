@@ -194,3 +194,72 @@
 .ProdImg {
     z-index: -2 !important;
 }
+
+
+.promo-card{
+    width: 335px;
+    height: 109px;
+    background-color: #88B788;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto 1fr ;
+    grid-template-rows: 1fr;
+}
+.promo-card .promo-image {
+    width: 96px ;
+    height: 100%;
+    padding-left: 1%;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.promo-image .promo-img {
+    object-fit: cover;
+}
+.promo-content {
+    width: 195px;
+    height: 85px;
+    display: grid;
+    padding: 11px 25px 11px 0;
+    align-items: center;
+    justify-content: center;
+}
+.promo-content h1{
+    font-size: 14px;
+    font-weight: 700;
+}
+.promo-content h2{
+    font-size: 14px;
+    font-weight: 400;
+}
+.promo-btn {
+    padding-top: 13px ;
+    list-style: none;
+}
+.promo-btn a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: azure;
+}
+.slide {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 5%;
+}
+
+.promo-container {
+    display: grid; 
+    grid-template-columns: 1fr;
+    gap: 20px;
+    height: 100%;
+    background-color: #ffffff;
+    overflow-x: scroll;
+}
+.promo-container::-webkit-scrollbar {
+display: none;
+}
