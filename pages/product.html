@@ -6,10 +6,11 @@
     <title>Product</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" href="/styles/styleProduct.css" />
+    <link rel="stylesheet" href="/styles/tailwind.css">
   </head>
 
   <body>
-    <section class="container">
+    <section class="container-fluid">
       <!-- navbar -->
         <nav class="navbar">
             <div class="nav-left-Item">
@@ -42,7 +43,7 @@
                 </a>
             </div>
 
-            <div class="nav-right-subItem2">
+            <div class="nav-right-subItem2  text-white">
                 <button>Sign In</button>
             </div>
 
@@ -90,15 +91,169 @@
         </section>
 
         <!-- product and filter -->
-        <section class="products-show">
-            <div class="filter-menu">
+        <section class="products-show flex flex-row justify-center px-9	 ">
+
+            <div class="filter-menu basis-1/3 bg-black rounded-lg flex flex-col p-4 gap-4 h-max	">
+    
+                <section class="filter flex flex-row justify-between text-white w-full ">
+                    <div>
+                        <h4 class="text-2xl	">Filter</h4>
+                    </div>
+                    <button >
+                        <h5>Reset Filter</h5>
+                    </button>
+                </section>
+
+                <section class="InputSearch text-white  flex flex-col gap-2">
+                    <label class="text-xl " for="searchFilter">search</label>
+                    <input class="rounded-lg h-8" type="text" name="searchFilter" placeholder="Search Your Product">
+                </section>
+
+                <section  class="category text-white flex flex-col gap-4">
+                    <div class="flex flex-col gap-2">
+                        <p class="text-xl text-white">Category</p>
+                        <form class=" flex flex-col gap-4 ">
+                            <div class="gap-4 flex flex-row ">
+                                <input class="w-6 h-6 rounded-2 bg-black" type="checkbox" id="Favorite Product" name="Favorite Product" value="Favorite Product">
+                                <label for="Favorite Product"> Favorite Product</label><br>
+                            </div>
+                            <div class="gap-4 flex flex-row ">
+                                <input class="w-6 h-6 rounded-2" type="checkbox" id="coffee" name="coffee" value="coffee">
+                                <label for="coffee"> Coffee</label>
+                            </div>
+                            <div class="gap-4 flex flex-row ">
+                                <input class="w-6 h-6 rounded-3xl" type="checkbox" id="foods" name="foods" value="foods">
+                                <label for="foods"> Foods</label>
+                            </div>
+                            <div class="gap-4 flex flex-row ">
+                                <input class="w-6 h-6 rounded-3xl" type="checkbox" id="add-on" name="add-on" value="add-on">
+                                <label for="add-on"> Add-on</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <p class="text-xl text-white">Sort By</p>
+                        <form class=" flex flex-col gap-4 ">
+                            <div class="gap-4 flex flex-row ">
+                                <input class="w-6 h-6 rounded-2 bg-black" type="checkbox" id="Buy 1 get 1" name="Buy 1 get 1" value="Buy 1 get 1">
+                                <label for="Buy 1 get 1">Buy 1 get 1</label><br>
+                            </div>
+                            <div class="gap-4 flex flex-row ">
+                                <input class="w-6 h-6 rounded-2" type="checkbox" id="Flash sale" name="Flash sale" value="Flash sale">
+                                <label for="Flash sale">Flash sale</label>
+                            </div>
+                            <div class="gap-4 flex flex-row ">
+                                <input class="w-6 h-6 rounded-3xl" type="checkbox" id="Birthday Package" name="Birthday Package" value="Birthday Package">
+                                <label for="Birthday Package">Birthday Package</label>
+                            </div>
+                            <div class="gap-4 flex flex-row ">
+                                <input class="w-6 h-6 rounded-3xl bg-black" type="checkbox" id="Cheap" name="Cheap" value="Cheap">
+                                <label for="Cheap">Cheap</label>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+
+                <section class="flex flex-col gap-4">
+                    <div>
+                        <p class="text-xl text-white">
+                            Range Price
+                        </p>
+                    </div>
+                    <div>
+                        <div class="slidecontainer w-full">
+                            <input type="range" min="1" max="100" value="25" class="slider w-full" id="myRange1">
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <button class="bg-[#FF8906] w-full h-8 rounded-lg">
+                        Apply Filter
+                    </button>
+
+                </section>
 
             </div>
-            <div class="products">
+
+            <div class="products basis-2/3 ">
+
                 <div class="product-card">
-                    
+
+                    <div class="cards flex flex-row flex-wrap justify-center gap-6 ">
+
+                            <div class="max-w-sm rounded overflow-visible shadow-lg">
+                                <img class="w-full ProdImg" src="/images/p2.png" alt="Sunset in the mountains">
+                                <div class=" -mt-8	">
+                                    <div class="px-6 py-4">
+                                        <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                                            <p class="text-gray-700 text-base">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                                            </p> 
+                                        </div>
+                                    <div class="px-6 pt-4 pb-2">
+                                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                                <img class="w-full" src="/images/p1.png" alt="Sunset in the mountains">
+                                <div class="px-6 py-4">
+                                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                                <p class="text-gray-700 text-base">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                                </p>
+                                </div>
+                                <div class="px-6 pt-4 pb-2">
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                                </div>
+                            </div>
+
+                            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                                <img class="w-full" src="/images/p2.png" alt="Sunset in the mountains">
+                                <div class="px-6 py-4">
+                                  <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                                  <p class="text-gray-700 text-base">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                                  </p>
+                                </div>
+                                <div class="px-6 pt-4 pb-2">
+                                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                                </div>
+                            </div>
+
+                            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                                <img class="w-full" src="/images/p1.png" alt="Sunset in the mountains">
+                                <div class="px-6 py-4">
+                                <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                                <p class="text-gray-700 text-base">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                                </p>
+                                </div>
+                                <div class="px-6 pt-4 pb-2">
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+                                <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+                                </div>
+                            </div>
+                            
+                    </div>
+
+                    <div class="pagination">
+
+                    </div>
+
                 </div>
             </div>
+
         </section>
 
     </section>
