@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="/styles/tailwind.css">
 
 </head>
-<body class="tulisan">
-    <main class="container">
+<body class="tulisan1">
+    <main class="container-fluid flex flex-col ">
          <!--Navbar-->
         <header>
             <nav class="navbar">
@@ -18,7 +18,7 @@
 
                     <div class="brand">
                         <img src="./icons/Vector.svg" alt="...">
-                        <h3>coffee Shop</h3>
+                        <h3 class="tulisan">coffee Shop</h3>
                     </div>
 
                     <ul class="link">
@@ -207,13 +207,15 @@
             
         </section>
 
-        <section class="testimoni-section">
-            
-            <div class="testimoni-image">
-                <img src="/images/70840a4caeb335701029d52bbb650fae.jpeg" alt="...">
+
+
+        <section class="newtestimonies flex flex-row gap-4  items-center tulisan text-white p-8"> 
+
+            <div class=" justify-center">
+                <img class="object-cover " src="/images/70840a4caeb335701029d52bbb650fae.jpeg" alt="...">
             </div>
 
-            <div class="testimoni-container">
+            <div class=" gap-4 tulisan">
                 <p class="heading">TESTIMONIAL</p>
                 <div class="name">
                     <div class="rectangle"></div>
@@ -235,14 +237,23 @@
                     <button href="" class="icon-btn active"><img src="./icons/arrow-up.svg" alt="..."></button>
                     <button href="" class="icon-btn"><img src="/icons/arrow-up (1).svg" alt="..."></button>
                 </label> 
-                <div class="slide">
+                <div class="slide flex flex-row gap-4">
                     <div class="lingkaran"></div>
                     <div class="lingkaran"></div>
                     <div class="lingkaran"></div>
                 </div>
             </div>
-
+        
         </section>
+<!-- 
+        <section class="testimoni-section">
+            <div class="testimoni-container flex flex-row justify-center items-center">
+
+
+                
+            </div>
+
+        </section> -->
 
         <footer class="tulisan bg-[#F8F8F8] w-full ">
 
@@ -280,18 +291,18 @@
                 </div>
                 <div class="flex flex-col gap-4">
                     <h3 class="text-xl	font-medium	">Social Media</h3>
-                    <div class="flex flex-row gap-4 justify-between items-center h-4 ">
+                    <div class="flex flex-row gap-2 justify-between items-center ">
                         
-                        <a href="">
-                            <img src="/icons/FbBlack.png" alt="">
+                        <a href="" >
+                            <img class="h-6 w-6" src="/icons/FbBlack.png" alt="">
                         </a>
 
                         <a href="">
-                            <img src="/icons/TweeterBlack.png" alt="">
+                            <img class="h-6 w-6" src="/icons/TweeterBlack.png" alt="">
                         </a>
 
                         <a href="">
-                            <img src="/icons/INstaBlack.png" alt="">
+                            <img class="h-6 w-6" src="/icons/INstaBlack.png" alt="">
                         </a>
 
                     </div>

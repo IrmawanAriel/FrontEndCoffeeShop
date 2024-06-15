@@ -87,19 +87,19 @@ img.itemTulisanCoffee{
 }
 
 .fullname {
-  background: url(icons/fullname.png) no-repeat left;
+  background: url(/icons/fullname.png) no-repeat left;
   background-size: 20px;
   background-position: 7px 7px;
 }
 
 .email {
-  background: url(icons/email.png) no-repeat left;
+  background: url(/icons/email.png) no-repeat left;
   background-size: 20px;
   background-position: 7px 7px;
 }
 
 .password {
-  background: url(icons/password.png) no-repeat left;
+  background: url(/icons/password.png) no-repeat left;
   background-size: 20px;
   background-position: 7px 7px;
 }

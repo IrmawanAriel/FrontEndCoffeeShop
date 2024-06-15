@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/styles/tailwind.css">
+
+</head>
+<body>
+    <section class="container-fluid ">
+
+        <header>
+            <nav class="flex flex-row justify-between items-center py-4 px-16 bg-black sticky top-0 hidden md:flex ">
+                <div class="flex flex-row gap-4 items-center">
+                    <div class="flex flex-row gap-4">
+                        <img class="itemLogo" src="/images/logoCoffee.png" alt="logoCoffee" />
+                        <img class="itemTulisanCoffee" src="/images/coffeeShop.png" alt="" />
+                    </div>
+                
+                    <div class="flex flex-row text-white gap-4">
+                        <a href="#">Home</a>
+                        <a href="#">Product</a>
+                    </div>
+                    </div>
+                
+                    <div class="flex flex-row gap-4 items-center text-white">
+                    <div class="flex flex-row gap-4">
+                        <a href="#" class="searchButton">
+                        <img class="w-4" src="/icons/search.png" alt="" />
+                        </a>
+                        <a href="#" class="shopingCartItem">
+                        <img class="w-4" src="/icons/shopingcart.png" alt="" />
+                        </a>
+                    </div>
+                
+                    <div class="border-2 border-white p-4 rounded">
+                        <button>Sign In</button>
+                    </div>
+                
+                    <div class="border-2 border-oren p-4 bg-oren rounded">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+            </nav>
+
+
+            <nav class=" py-2 px-4 bg-black items-center sticky top-0  md:hidden ">
+                
+                <div class="relative inline-block flex flex-row justify-between items-center py-2 px-4 bg-black sticky top-0  md:hidden ">
+                    <div class="flex flex-row gap-4">
+                        <img class="itemLogo h-8" src="/images/logoCoffee.png" alt="logoCoffee" />
+                        <img class="itemTulisanCoffee h-8" src="/images/coffeeShop.png" alt="" />
+                    </div>
+                    <div>
+                        <div >
+                            <button type="button" class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50" id="menu-button" aria-expanded="true" aria-haspopup="true">
+                            Options
+                            <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                            </svg>
+                            </button>
+                        </div>
+                        <div class="bg-white absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md  shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none text-black" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                            <div class="py-1" role="none">
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Home</a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Product</a>
+                            </div>
+                            <div class="py-1  " role="none">
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 flex flex-row" role="menuitem" tabindex="-1" id="menu-item-2"><img class="h-4 w-4" src="/icons/search.png" alt="" /> Search </a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 flex flex-row" role="menuitem" tabindex="-1" id="menu-item-3"><img class="h-4 w-4" src="/icons/shopingcart.png" alt="" /> Shooping Cart</a>
+                            </div>
+                            <div class="py-1" role="none">
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-4"><button>Sign In</button></a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-5"><button>Sign Up</button></a>
+                            </div>
+                            <div class="py-1" role="none">
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-6">Delete</a>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </nav>
+        </header>
+
+        <main class="p-8 flex flex-col gap-4">
+
+            <h5 class="text-5xl	font-medium	">
+                Profile
+            </h5>
+            <section class="flex flex-row gap-4 ">
+                <div class="profile-user flex h-fit	 flex-col basis-1/5 border-2 rounded-lg py-4">
+                    <div class="flex flex-col items-center gap-4">
+                        <div class="flex  basis-1/4 	w-full flex-col gap-1 items-center">
+                            <div class="font-large">
+                                galuh wizard
+                            </div>
+                            <div class="font-small text-gray-400">
+                                gahuls@gmail.com
+                            </div>
+                        </div>
+                        <div class=" basis-2/2 h-max w-max">
+                            <img src="/images/GaluhWizard.png" alt="">
+                        </div>
+                        <div class=" basis-1/4 flex flex-col gap-2">
+                            <button class="item h-10 w-full rounded-lg bg-oren">
+                                Upload New Photo
+                            </button>
+                            <div class="flex flex-row items-center justify-center gap-2">
+                                <p class="text-gray-400">
+                                    Sience
+                                </p>
+                                <p>
+                                    20 January 2022
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-update-form  basis-4/5 border-2 rounded-lg font-medium">
+                    <form class="flex flex-col gap-4 w-full p-8" action="">
+                        <div class="item-form gap-2 ">
+                            <label for="fullname">Full Name</label><br><br>
+                            <input class="fullname border-2 w-full rounded-lg h-10" type="text" id="fullname" placeholder="         Enter Your Full Name">
+                        </div>
+
+                        <div class="item-form gap-4">
+                            <label for="email">Email</label><br><br>
+                            <input class="email border-2 w-full rounded-lg h-10" type="email" id="email" placeholder= "         Enter Your Email">
+                        </div>
+
+                        <div class="item-form gap-4">
+                            <label for="phone">Phone</label><br><br>
+                            <input class="phone border-2 w-full rounded-lg h-10" type="number" id="phone" placeholder= "         Enter Your phone number">
+                        </div>
+
+                        <div class="item-form gap-4">
+                            <label for="password">Password</label><br><br>
+                            <input class="password border-2 w-full rounded-lg h-10" type="password" id="password" placeholder="         Enter Your Password">
+                        </div>
+
+                        <div class="item-form gap-4">
+                            <label for="address">Address</label><br><br>
+                            <input class="address border-2 w-full rounded-lg h-10" type="text" id="address" placeholder="         Enter Your address Again">
+                        </div>
+
+                        <button  class="item h-10 w-full rounded-lg bg-oren" type="submit">Register</button>
+
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="tulisan bg-[#F8F8F8] w-full  ">
+
+            <section class="flex  px-32	gap-x-12 py-16">
+                <div class="flex flex-col gap-4">
+                    <div class="flex flex-row gap-4">
+                        <img class="itemLogo" src="/images/logoCoffee.png" alt="logoCoffee" />
+                        <img class="itemTulisanCoffee" src="/images/coffeeShop.png" alt="" />
+                    </div>
+
+                    <div>
+                        <p>Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+                    </div>
+
+                    <div>
+                        ©2020CoffeeStore
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <h3 class="text-xl	font-medium	">Product</h3>
+                    <a href="">Our Product</a>
+                    <a href="">Pricing</a>
+                    <a href="">Location</a>
+                    <a href="">Country</a>
+                    <a href="">Blog</a>
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <h3 class="text-xl	font-medium	">Engage</h3>
+                    <a href="">Our Product</a>
+                    <a href="">Pricing</a>
+                    <a href="">Location</a>
+                    <a href="">Country</a>
+                    <a href="">Blog</a>
+                </div>
+
+                <div class="flex flex-col gap-4">
+                    <h3 class="text-xl	font-medium	">Social Media</h3>
+                    <div class="flex flex-row gap-4 justify-between items-center  ">
+                        
+                        <a href="" >
+                            <img class="h-6" src="/icons/FbBlack.png" alt="">
+                        </a>
+
+                        <a href="">
+                            <img class="h-6" src="/icons/TweeterBlack.png" alt="">
+                        </a>
+
+                        <a href="">
+                            <img class="h-6" src="/icons/INstaBlack.png" alt="">
+                        </a>
+
+                    </div>
+                </div>
+            </section>
+
+        </footer>
+
+    </section>
+
+</body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+  const menuButton = document.getElementById("menu-button");
+  const dropdownMenu = document.querySelector(".absolute[aria-labelledby='menu-button']");
+
+  menuButton.addEventListener("click", function () {
+    dropdownMenu.classList.toggle("hidden");
+  });
+
+  document.addEventListener("click", function (event) {
+    if (!menuButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
+      dropdownMenu.classList.add("hidden");
+    }
+  });
+});
+</script>
+</html>

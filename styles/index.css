@@ -581,6 +581,17 @@
     
   }
 } 
+
+.itemTulisanCoffee {
+  width: 86px;
+  height: 29px;
+}
+
+.itemLogo {
+  width: 32px;
+  height: auto;
+}
+
 /* mapshop-section */
 .mapshop-section {
   height: 100vh;
@@ -649,30 +660,31 @@
   }
 } 
 
-
-.testimoni-section {
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
-  background: linear-gradient(168.18deg, #777C82 -114.74%, #0B0909 91.35%);
+.newtestimonies img{
+  height: 432px;
+  width: auto;
 }
+
+.testimoni-section, .newtestimonies {
+  background: linear-gradient(168.18deg, #777C82 -114.74%, #0B0909 91.35%);
+
+}
+
 .testimoni-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding-top: 5%;
 }
 .testimoni-image img {
-  width:289px ;
-  height: 261px;
-  object-fit: cover;
-  transition: transform 0.3s ease;
   object-position: top;
 }
+
+
+.testimoni-container img{
+  height: fit-content;
+  width: fit-content;
+}
+
 .testimoni-container {
   padding: 10%;
-  display: grid;
   gap: 5px;
 }
 .testimoni-container .heading {
@@ -744,6 +756,7 @@
 
   background-color: #FF8906;
 } 
+
 .testimoni-container .slide {
   display: flex;
   width: 80px;
@@ -756,6 +769,7 @@
   border-radius: 50%;
   background-color: #fff; 
 }
+
 .active {
   background-color: #fc9724;
 }
@@ -773,10 +787,8 @@
 }
 @media screen and (min-width: 884px){
   .testimoni-section {
-    height: 60vh;
+    height: 30vh;
     display: grid;
-    grid-template-columns: 1fr  1fr;
-    grid-template-rows: 1fr;
   }
   .testimoni-container {
     margin: 10px;
