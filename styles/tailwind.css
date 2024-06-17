@@ -824,6 +824,10 @@ video {
   flex-basis: 80%;
 }
 
+.basis-2\/4 {
+  flex-basis: 50%;
+}
+
 .origin-top-right {
   transform-origin: top right;
 }
@@ -1025,6 +1029,11 @@ video {
 .bg-red-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .object-cover {
