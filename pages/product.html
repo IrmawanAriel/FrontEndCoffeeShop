@@ -14,76 +14,94 @@
     <section class="container-fluid">
         <!-- navbar -->
 
-        <nav class="flex flex-row justify-between items-center py-4 px-16 bg-black sticky top-0 hidden md:flex ">
-            <div class="flex flex-row gap-4 items-center">
-              <div class="flex flex-row gap-4">
-                <img class="itemLogo" src="/images/logoCoffee.png" alt="logoCoffee" />
-                <img class="itemTulisanCoffee" src="/images/coffeeShop.png" alt="" />
-              </div>
-          
-              <div class="flex flex-row text-white gap-4">
-                <a href="#">Home</a>
-                <a href="#">Product</a>
-              </div>
-            </div>
-          
-            <div class="flex flex-row gap-4 items-center text-white">
-              <div class="flex flex-row gap-4">
-                <a href="#" class="searchButton">
-                  <img class="w-4" src="/icons/search.png" alt="" />
-                </a>
-                <a href="#" class="shopingCartItem">
-                  <img class="w-4" src="/icons/shopingcart.png" alt="" />
-                </a>
-              </div>
-          
-              <div class="border-2 border-white p-4 rounded">
-                <button>Sign In</button>
-              </div>
-          
-              <div class="border-2 border-oren p-4 bg-oren rounded">
-                <button>Sign Up</button>
-              </div>
-            </div>
-          </nav>
-
-
-        <nav class=" py-2 px-4 bg-black items-center sticky top-0  md:hidden ">
-            
-            <div class="relative inline-block flex flex-row justify-between items-center py-2 px-4 bg-black sticky top-0  md:hidden ">
-                <div class="flex flex-row gap-4">
-                    <img class="itemLogo" src="/images/logoCoffee.png" alt="logoCoffee" />
-                    <img class="itemTulisanCoffee" src="/images/coffeeShop.png" alt="" />
+        <header>
+            <nav class="flex flex-row justify-between items-center py-4 px-16 bg-black sticky top-0 hidden md:flex ">
+                <div class="flex flex-row gap-4 items-center">
+                    <div class="flex flex-row gap-4">
+                        <img class="itemLogo" src="/images/logoCoffee.png" alt="logoCoffee" />
+                        <img class="itemTulisanCoffee" src="/images/coffeeShop.png" alt="" />
+                    </div>
+    
+                    <div class="flex flex-row text-white gap-4">
+                        <a href="#">Home</a>
+                        <a href="#">Product</a>
+                    </div>
                 </div>
-                <div>
-                    <div >
-                        <button type="button" class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50" id="menu-button" aria-expanded="true" aria-haspopup="true">
-                          Options
-                          <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                            <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
-                          </svg>
-                        </button>
-                      </div>
-                      <div class="bg-white absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md  shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none text-black" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
-                        <div class="py-1" role="none">
-                          <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-0">Home</a>
-                          <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-1">Product</a>
+    
+                <div class="flex flex-row gap-4 items-center text-white">
+                    <div class="flex flex-row gap-4">
+                        <a href="#" class="searchButton">
+                            <img class="w-4" src="/icons/search.png" alt="" />
+                        </a>
+                        <a href="#" class="shopingCartItem">
+                            <img class="w-4" src="/icons/shopingcart.png" alt="" />
+                        </a>
+                    </div>
+    
+                    <div class="border-2 border-white p-4 rounded">
+                        <button>Sign In</button>
+                    </div>
+    
+                    <div class="border-2 border-oren p-4 bg-oren rounded">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+            </nav>
+    
+            <nav class=" py-2 px-4 bg-black items-center sticky top-0  md:hidden ">
+    
+                <div
+                    class="relative inline-block flex flex-row justify-between items-center py-2 px-4 bg-black sticky top-0  md:hidden ">
+                    <div class="flex flex-row gap-4">
+                        <img class="itemLogo h-8" src="/images/logoCoffee.png" alt="logoCoffee" />
+                        <img class="itemTulisanCoffee h-8" src="/images/coffeeShop.png" alt="" />
+                    </div>
+                    <div>
+                        <div>
+                            <button type="button"
+                                class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+                                id="menu-button" aria-expanded="true" aria-haspopup="true">
+                                <svg width="16px" height="16px" viewBox="0 0 24 24" id="three-dots" xmlns="http://www.w3.org/2000/svg">
+                                    <g id="_20x20_three-dots--grey" data-name="20x20/three-dots--grey" transform="translate(24) rotate(90)">
+                                      <rect id="Rectangle" width="24" height="24" fill="none"/>
+                                      <circle id="Oval" cx="1" cy="1" r="1" transform="translate(5 11)" stroke="#000000" stroke-miterlimit="10" stroke-width="0.5"/>
+                                      <circle id="Oval-2" data-name="Oval" cx="1" cy="1" r="1" transform="translate(11 11)" stroke="#000000" stroke-miterlimit="10" stroke-width="0.5"/>
+                                      <circle id="Oval-3" data-name="Oval" cx="1" cy="1" r="1" transform="translate(17 11)" stroke="#000000" stroke-miterlimit="10" stroke-width="0.5"/>
+                                    </g>
+                                </svg>
+                            </button>
                         </div>
-                        <div class="py-1  " role="none">
-                          <a href="#" class="block px-4 py-2 text-sm text-gray-700 flex flex-row" role="menuitem" tabindex="-1" id="menu-item-2"><img class="h-4 w-4" src="/icons/search.png" alt="" /> Search </a>
-                          <a href="#" class="block px-4 py-2 text-sm text-gray-700 flex flex-row" role="menuitem" tabindex="-1" id="menu-item-3"><img class="h-4 w-4" src="/icons/shopingcart.png" alt="" /> Shooping Cart</a>
+                        <div class="bg-white absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md  shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none text-black"
+                            role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                            <div class="py-1" role="none">
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+                                    id="menu-item-0">Home</a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+                                    id="menu-item-1">Product</a>
+                            </div>
+                            <div class="py-1  " role="none">
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700 flex flex-row" role="menuitem"
+                                    tabindex="-1" id="menu-item-2"><img class="h-4 w-4" src="/icons/search.png" alt="" />
+                                    Search </a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700 flex flex-row" role="menuitem"
+                                    tabindex="-1" id="menu-item-3"><img class="h-4 w-4" src="/icons/shopingcart.png"
+                                        alt="" /> Shooping Cart</a>
+                            </div>
+                            <div class="py-1" role="none">
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+                                    id="menu-item-4"><button>Sign In</button></a>
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+                                    id="menu-item-5"><button>Sign Up</button></a>
+                            </div>
+                            <div class="py-1" role="none">
+                                <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+                                    id="menu-item-6">Delete</a>
+                            </div>
                         </div>
-                        <div class="py-1" role="none">
-                          <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-4"><button>Sign In</button></a>
-                          <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-5"><button>Sign Up</button></a>
-                        </div>
-                        <div class="py-1" role="none">
-                          <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="menu-item-6">Delete</a>
-                        </div>
-                      </div>
-                </div>    
-            </div>
-        </nav>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
         
 
@@ -594,24 +612,25 @@
 
         </section>
 
-        <footer class="tulisan bg-[#F8F8F8] w-full ">
+        <footer class="tulisan bg-[#F8F8F8] w-full  ">
 
-            <section class="flex  px-32	gap-x-12 py-16">
+            <section class="flex flex-wrap gap-4 p-4 md:flex-row md:px-32 md:gap-x-12 py-16">
                 <div class="flex flex-col gap-4">
                     <div class="flex flex-row gap-4">
-                        <img class="itemLogo" src="/images/logoCoffee.png" alt="logoCoffee" />
-                        <img class="itemTulisanCoffee" src="/images/coffeeShop.png" alt="" />
+                        <img class="itemLogo h-6" src="/images/logoCoffee.png" alt="logoCoffee" />
+                        <img class="itemTulisanCoffee h-6" src="/images/coffeeShop.png" alt="" />
                     </div>
-
+    
                     <div>
-                        <p>Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality beans</p>
+                        <p>Coffee Shop is a store that sells some good meals, and especially coffee. We provide high quality
+                            beans</p>
                     </div>
-
-                    <div>
+    
+                    <div class="text-gray-400">
                         ©2020CoffeeStore
                     </div>
                 </div>
-
+    
                 <div class="flex flex-col gap-4">
                     <h3 class="text-xl	font-medium	">Product</h3>
                     <a href="">Our Product</a>
@@ -620,7 +639,7 @@
                     <a href="">Country</a>
                     <a href="">Blog</a>
                 </div>
-
+    
                 <div class="flex flex-col gap-4">
                     <h3 class="text-xl	font-medium	">Engage</h3>
                     <a href="">Our Product</a>
@@ -629,27 +648,27 @@
                     <a href="">Country</a>
                     <a href="">Blog</a>
                 </div>
-
+    
                 <div class="flex flex-col gap-4">
                     <h3 class="text-xl	font-medium	">Social Media</h3>
-                    <div class="flex flex-row gap-4 justify-between items-center  ">
-                        
-                        <a href="" >
+                    <div class="flex flex-wrap md:flex-row gap-4 justify-between items-center  ">
+    
+                        <a href="">
                             <img class="h-6" src="/icons/FbBlack.png" alt="">
                         </a>
-
+    
                         <a href="">
                             <img class="h-6" src="/icons/TweeterBlack.png" alt="">
                         </a>
-
+    
                         <a href="">
                             <img class="h-6" src="/icons/INstaBlack.png" alt="">
                         </a>
-
+    
                     </div>
                 </div>
             </section>
-
+    
         </footer>
 
     </section>
