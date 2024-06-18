@@ -100,14 +100,14 @@
 
     <main class="px-16 py-8 flex gap-16 flex-col">
 
-        <section class="flex flex-row gap-8 p-2">
+        <section class="flex flex-col md:flex-row gap-1 md:gap-8 p-2">
 
             <div class="flex flex-col gap-4 basis-2/4 max-w-full max-h-fit">
                 <div class="basis-3/4">
                     <img class="max-w-full h-full object-cover" src="/images/kopidetail.png" alt="">
                 </div>
 
-                <div class="basis-1/4 flex flex-row gap-4 w-1/4 items-center justify-between">
+                <div class="basis-1/4 flex flex-row gap-4 w-1/4 items-center justify-between invisible	 md:visible">
                     <img class="h-fit w-auto" src="/images/kopidetail.png" alt="">
                     <img class="h-fit w-auto" src="/images/kopidetail.png" alt="">
                     <img class="h-fit w-auto" src="/images/kopidetail.png" alt="">
@@ -115,12 +115,12 @@
             </div>
 
             <div class="flex flex-col gap-2 basis-2/4">
-                <div class=" gap-4 flex flex-col gap-8">
+                <div class=" gap-4 flex flex-col gap-4 md:gap-8">
 
                     <div class="text-white font-bold text-3xl bg-red-500 border-2 rounded-3xl w-fit p-4">Flash Sale!
                     </div>
 
-                    <div class="font-bold text-5xl mb-2">Hazelnut Latte</div>
+                    <div class="md:font-bold  text-2xl font-semibold  md:text-5xl ">Hazelnut Latte</div>
 
                     <div class="price flex flex-row gap-2">
                         <div class="first-price line-through text-red-800	">
@@ -149,36 +149,36 @@
                     </p>
 
                     <div class="flex flex-row border-2 rounded-lg items-center w-fit h-fit">
-                        <button class=" border-2 hover:bg-oren text-3xl text-black p-4 border-oren rounded-lg">
+                        <button class=" border-2 hover:bg-oren text-lg md:text-3xl text-black p-2 md:p-4 border-oren rounded-lg">
                             -
                         </button>
-                        <div class=" text-3xl text-black p-4">
+                        <div class="text-lg p-2 md:text-3xl text-black md:p-4">
                             3
                         </div>
-                        <button class=" border-2 hover:bg-oren text-3xl text-black p-4 border-oren rounded-lg">
+                        <button class=" border-2 hover:bg-oren text-lg md:text-3xl text-black p-2 md:p-4 border-oren rounded-lg">
                             +
                         </button>
                     </div>
 
-                    <div class="text-3xl font-bold">Choose Size</div>
-                    <div class="flex flex-row justify-between">
-                        <div class=" py-4 px-16  text-2xl text-black border-2 hover:border-oren">Regular</div>
-                        <div class=" py-4 px-16 text-2xl text-black border-2 hover:border-oren">Medium</div>
-                        <div class=" py-4 px-16 text-2xl text-black border-2 hover:border-oren">Large</div>
+                    <div class=" text-lg font-semibold  md:text-3xl md:font-bold">Choose Size</div>
+                    <div class="flex flex-col md:flex-row justify-between gap-2">
+                        <div class="text-lg p-4 md:py-4 md:px-16 md:text-2xl text-black border-2 hover:border-oren">Regular</div>
+                        <div class="text-lg p-4 md:py-4 md:px-16 md:text-2xl text-black border-2 hover:border-oren">Medium</div>
+                        <div class="text-lg p-4 md:py-4 md:px-16 md:text-2xl text-black border-2 hover:border-oren">Large</div>
                     </div>
 
-                    <div class="text-3xl font-bold">Hot/Ice?</div>
-                    <div class="flex flex-row justify-evenly">
-                        <div class=" py-4 px-36  text-2xl text-black border-2 hover:border-oren">Ice</div>
-                        <div class=" py-4 px-36 text-2xl text-black border-2 hover:border-oren">Hot</div>
+                    <div class="text-lg font-semibold  md:text-3xl md:font-bold">Hot/Ice?</div>
+                    <div class="flex flex-col md:flex-row justify-center md:justify-evenly gap-2">
+                        <div class="p-4 md:py-4 md:px-36 text-lg md:text-2xl text-black border-2 hover:border-oren">Ice</div>
+                        <div class="p-4 md:py-4 md:px-36 text-lg md:text-2xl text-black border-2 hover:border-oren">Hot</div>
                     </div>
 
-                    <div class="flex flex-row gap-2 justify-between">
-                        <button class=" bg-orange-400 rounded-xl py-2 px-28  text-2xl text-black ">
+                    <div class="flex flex-col md:flex-row gap-2 md:justify-between">
+                        <button class="p-4 font-semibold bg-orange-400 rounded-xl md:py-2 md:px-28 w-full text-2xl text-black ">
                             Buy
                         </button>
                         <button
-                            class=" rounded-xl border-2 border-orange-400 flex justify-center items-center py-2 px-28  text-2xl text-black	gap-2">
+                            class="font-semibold p-4 rounded-xl border-2 border-orange-400 flex justify-center items-center md:py-2 md:px-28 w-full  text-2xl text-black	gap-2">
                             <img class="w-6 h-6" src="/icons/orenshopingcart.png" alt="">
                             <p>Add to chart</p>
                         </button>
@@ -191,11 +191,11 @@
 
         <section class="flex flex-col gap-4">
             <div class="">
-                <p class="text-5xl	font-medium"> Recommendation For You
+                <p class="md:text-5xl text-2xl font-semibold md:font-medium"> Recommendation For You
                 <p></p>
                 </p>
             </div>
-            <div class="flex gap-2 flex-wrap">
+            <div class="flex gap-4 flex-wrap items-center">
                 <div class="max-w-sm rounded overflow-hidden  relative ">
                     <img class="w-full" src="/images/p2.png" alt="Sunset in the mountains">
                     <div class="ml-4 mr-4 mt-56 mb-auto ">
