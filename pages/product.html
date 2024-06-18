@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="stylesheet" href="/styles/styleProduct.css" />
-    <link rel="stylesheet" href="/styles/tailwind.css">
+    <link rel="stylesheet" href="../styles/styleProduct.css" />
+    <link rel="stylesheet" href="../styles/tailwind.css">
 </head>
 
 <body>
@@ -18,33 +18,37 @@
             <nav class="flex flex-row justify-between items-center py-4 px-16 bg-black sticky top-0 hidden md:flex ">
                 <div class="flex flex-row gap-4 items-center">
                     <div class="flex flex-row gap-4">
-                        <img class="itemLogo" src="/images/logoCoffee.png" alt="logoCoffee" />
-                        <img class="itemTulisanCoffee" src="/images/coffeeShop.png" alt="" />
+                        <img class="itemLogo" src="../images/logoCoffee.png" alt="logoCoffee" />
+                        <img class="itemTulisanCoffee" src="../images/coffeeShop.png" alt="" />
                     </div>
     
                     <div class="flex flex-row text-white gap-4">
-                        <a href="#">Home</a>
-                        <a href="#">Product</a>
+                        <a href="../index.html">Home</a>
+                        <a href="product.html">Product</a>
                     </div>
                 </div>
     
                 <div class="flex flex-row gap-4 items-center text-white">
                     <div class="flex flex-row gap-4">
                         <a href="#" class="searchButton">
-                            <img class="w-4" src="/icons/search.png" alt="" />
+                            <img class="w-4" src="../icons/search.png" alt="" />
                         </a>
                         <a href="#" class="shopingCartItem">
-                            <img class="w-4" src="/icons/shopingcart.png" alt="" />
+                            <img class="w-4" src="../icons/shopingcart.png" alt="" />
                         </a>
                     </div>
     
-                    <div class="border-2 border-white p-4 rounded">
-                        <button>Sign In</button>
-                    </div>
+                    <button>
+                        <a href="../pages/login.html" class="border-2 border-white p-4 rounded">
+                            Sign In
+                        </a>
+                    </button>
     
-                    <div class="border-2 border-oren p-4 bg-oren rounded">
-                        <button>Sign Up</button>
-                    </div>
+                    <button>
+                        <a href="../pages/register.html" class="border-2 border-oren p-4 bg-oren rounded">
+                        Sign Up
+                        </a>
+                    </button>
                 </div>
             </nav>
     
@@ -53,8 +57,8 @@
                 <div
                     class="relative inline-block flex flex-row justify-between items-center py-2 px-4 bg-black sticky top-0  md:hidden ">
                     <div class="flex flex-row gap-4">
-                        <img class="itemLogo h-8" src="/images/logoCoffee.png" alt="logoCoffee" />
-                        <img class="itemTulisanCoffee h-8" src="/images/coffeeShop.png" alt="" />
+                        <img class="itemLogo h-8" src="../images/logoCoffee.png" alt="logoCoffee" />
+                        <img class="itemTulisanCoffee h-8" src="../images/coffeeShop.png" alt="" />
                     </div>
                     <div>
                         <div>
@@ -63,10 +67,10 @@
                                 id="menu-button" aria-expanded="true" aria-haspopup="true">
                                 <svg width="16px" height="16px" viewBox="0 0 24 24" id="three-dots" xmlns="http://www.w3.org/2000/svg">
                                     <g id="_20x20_three-dots--grey" data-name="20x20/three-dots--grey" transform="translate(24) rotate(90)">
-                                      <rect id="Rectangle" width="24" height="24" fill="none"/>
-                                      <circle id="Oval" cx="1" cy="1" r="1" transform="translate(5 11)" stroke="#000000" stroke-miterlimit="10" stroke-width="0.5"/>
-                                      <circle id="Oval-2" data-name="Oval" cx="1" cy="1" r="1" transform="translate(11 11)" stroke="#000000" stroke-miterlimit="10" stroke-width="0.5"/>
-                                      <circle id="Oval-3" data-name="Oval" cx="1" cy="1" r="1" transform="translate(17 11)" stroke="#000000" stroke-miterlimit="10" stroke-width="0.5"/>
+                                      <rect id="Rectangle" width="24" height="24" fill="none"../>
+                                      <circle id="Oval" cx="1" cy="1" r="1" transform="translate(5 11)" stroke="#000000" stroke-miterlimit="10" stroke-width="0.5"../>
+                                      <circle id="Oval-2" data-name="Oval" cx="1" cy="1" r="1" transform="translate(11 11)" stroke="#000000" stroke-miterlimit="10" stroke-width="0.5"../>
+                                      <circle id="Oval-3" data-name="Oval" cx="1" cy="1" r="1" transform="translate(17 11)" stroke="#000000" stroke-miterlimit="10" stroke-width="0.5"../>
                                     </g>
                                 </svg>
                             </button>
@@ -81,10 +85,10 @@
                             </div>
                             <div class="py-1  " role="none">
                                 <a href="#" class="block px-4 py-2 text-sm text-gray-700 flex flex-row" role="menuitem"
-                                    tabindex="-1" id="menu-item-2"><img class="h-4 w-4" src="/icons/search.png" alt="" />
+                                    tabindex="-1" id="menu-item-2"><img class="h-4 w-4" src="../icons/search.png" alt="" />
                                     Search </a>
                                 <a href="#" class="block px-4 py-2 text-sm text-gray-700 flex flex-row" role="menuitem"
-                                    tabindex="-1" id="menu-item-3"><img class="h-4 w-4" src="/icons/shopingcart.png"
+                                    tabindex="-1" id="menu-item-3"><img class="h-4 w-4" src="../icons/shopingcart.png"
                                         alt="" /> Shooping Cart</a>
                             </div>
                             <div class="py-1" role="none">
@@ -124,10 +128,10 @@
 
                 <div class="carousel-btn justify-end flex flex-row ">
                     <button id="btn-scroll-left" class="carousel-btn-left">
-                        <img src="/icons/leftCarouselArrow.png" alt="">
+                        <img src="../icons/leftCarouselArrow.png" alt="">
                     </button>
                     <button id="btn-scroll-right" class="carousel-btn-righ t">
-                        <img src="/icons/rightCarouselArrow.png" alt="">
+                        <img src="../icons/rightCarouselArrow.png" alt="">
                     </button>
                 </div>
             </section>
@@ -136,7 +140,7 @@
                 <div class="carousel-contents flex flex-row gap-4 overflow-x-scroll space-x-4">
                     <div class="promo-card">
                         <div class="promo-image">
-                            <img src="/images/image 46.png" alt="" class="promo-img">
+                            <img src="../images/image 46.png" alt="" class="promo-img">
                         </div>
                         
                         <div class="promo-content">
@@ -150,7 +154,7 @@
 
                     <div class="promo-card">
                         <div class="promo-image">
-                            <img src="/images/image 46.png" alt="" class="promo-img">
+                            <img src="../images/image 46.png" alt="" class="promo-img">
                         </div>
                         
                         <div class="promo-content">
@@ -164,7 +168,7 @@
 
                     <div class="promo-card">
                         <div class="promo-image">
-                            <img src="/images/image 46.png" alt="" class="promo-img">
+                            <img src="../images/image 46.png" alt="" class="promo-img">
                         </div>
                         
                         <div class="promo-content">
@@ -178,7 +182,7 @@
 
                     <div class="promo-card">
                         <div class="promo-image">
-                            <img src="/images/image 46.png" alt="" class="promo-img">
+                            <img src="../images/image 46.png" alt="" class="promo-img">
                         </div>
                         
                         <div class="promo-content">
@@ -192,7 +196,7 @@
 
                     <div class="promo-card">
                         <div class="promo-image">
-                            <img src="/images/image 46.png" alt="" class="promo-img">
+                            <img src="../images/image 46.png" alt="" class="promo-img">
                         </div>
                         
                         <div class="promo-content">
@@ -206,7 +210,7 @@
 
                     <div class="promo-card">
                         <div class="promo-image">
-                            <img src="/images/image 46.png" alt="" class="promo-img">
+                            <img src="../images/image 46.png" alt="" class="promo-img">
                         </div>
                         
                         <div class="promo-content">
@@ -326,7 +330,7 @@
                     <div class="cards flex flex-row flex-wrap justify-center gap-4 ">
 
                         <div class="max-w-sm rounded overflow-hidden  relative ">
-                            <img class="w-full" src="/images/p2.png" alt="Sunset in the mountains">
+                            <img class="w-full" src="../images/p2.png" alt="Sunset in the mountains">
                             <div class="ml-4 mr-4 mt-56 mb-auto ">
                                 <div
                                     class="absolute bottom-0 mb-12 bg-white w-11/12 mx-auto p-4  shadow-lg flex flex-col gap-2">
@@ -362,7 +366,7 @@
                                         </button>
                                         <button
                                             class="basis-1/5 rounded-xl border-2 border-orange-400 flex justify-center items-center	">
-                                            <img class="w-6 h-6" src="/icons/orenshopingcart.png" alt="">
+                                            <img class="w-6 h-6" src="../icons/orenshopingcart.png" alt="">
                                         </button>
                                     </div>
 
@@ -371,7 +375,7 @@
                         </div>
 
                         <div class="max-w-sm rounded overflow-hidden  relative ">
-                            <img class="w-full" src="/images/p2.png" alt="Sunset in the mountains">
+                            <img class="w-full" src="../images/p2.png" alt="Sunset in the mountains">
                             <div class="ml-4 mr-4 mt-56 mb-auto ">
                                 <div
                                     class="absolute bottom-0 mb-12 bg-white w-11/12 mx-auto p-4  shadow-lg flex flex-col gap-2">
@@ -407,7 +411,7 @@
                                         </button>
                                         <button
                                             class="basis-1/5 rounded-xl border-2 border-orange-400 flex justify-center items-center	">
-                                            <img class="w-6 h-6" src="/icons/orenshopingcart.png" alt="">
+                                            <img class="w-6 h-6" src="../icons/orenshopingcart.png" alt="">
                                         </button>
                                     </div>
 
@@ -416,7 +420,7 @@
                         </div>
 
                         <div class="max-w-sm rounded overflow-hidden  relative ">
-                            <img class="w-full" src="/images/p2.png" alt="Sunset in the mountains">
+                            <img class="w-full" src="../images/p2.png" alt="Sunset in the mountains">
                             <div class="ml-4 mr-4 mt-56 mb-auto ">
                                 <div
                                     class="absolute bottom-0 mb-12 bg-white w-11/12 mx-auto p-4  shadow-lg flex flex-col gap-2">
@@ -452,7 +456,7 @@
                                         </button>
                                         <button
                                             class="basis-1/5 rounded-xl border-2 border-orange-400 flex justify-center items-center	">
-                                            <img class="w-6 h-6" src="/icons/orenshopingcart.png" alt="">
+                                            <img class="w-6 h-6" src="../icons/orenshopingcart.png" alt="">
                                         </button>
                                     </div>
 
@@ -461,7 +465,7 @@
                         </div>
 
                         <div class="max-w-sm rounded overflow-hidden  relative ">
-                            <img class="w-full" src="/images/p2.png" alt="Sunset in the mountains">
+                            <img class="w-full" src="../images/p2.png" alt="Sunset in the mountains">
                             <div class="ml-4 mr-4 mt-56 mb-auto ">
                                 <div
                                     class="absolute bottom-0 mb-12 bg-white w-11/12 mx-auto p-4  shadow-lg flex flex-col gap-2">
@@ -497,7 +501,7 @@
                                         </button>
                                         <button
                                             class="basis-1/5 rounded-xl border-2 border-orange-400 flex justify-center items-center	">
-                                            <img class="w-6 h-6" src="/icons/orenshopingcart.png" alt="">
+                                            <img class="w-6 h-6" src="../icons/orenshopingcart.png" alt="">
                                         </button>
                                     </div>
 
@@ -506,7 +510,7 @@
                         </div>
 
                         <div class="max-w-sm rounded overflow-hidden  relative ">
-                            <img class="w-full" src="/images/p2.png" alt="Sunset in the mountains">
+                            <img class="w-full" src="../images/p2.png" alt="Sunset in the mountains">
                             <div class="ml-4 mr-4 mt-56 mb-auto ">
                                 <div
                                     class="absolute bottom-0 mb-12 bg-white w-11/12 mx-auto p-4  shadow-lg flex flex-col gap-2">
@@ -542,7 +546,7 @@
                                         </button>
                                         <button
                                             class="basis-1/5 rounded-xl border-2 border-orange-400 flex justify-center items-center	">
-                                            <img class="w-6 h-6" src="/icons/orenshopingcart.png" alt="">
+                                            <img class="w-6 h-6" src="../icons/orenshopingcart.png" alt="">
                                         </button>
                                     </div>
 
@@ -551,7 +555,7 @@
                         </div>
 
                         <div class="max-w-sm rounded overflow-hidden  relative ">
-                            <img class="w-full" src="/images/p2.png" alt="Sunset in the mountains">
+                            <img class="w-full" src="../images/p2.png" alt="Sunset in the mountains">
                             <div class="ml-4 mr-4 mt-56 mb-auto ">
                                 <div
                                     class="absolute bottom-0 mb-12 bg-white w-11/12 mx-auto p-4  shadow-lg flex flex-col gap-2">
@@ -587,7 +591,7 @@
                                         </button>
                                         <button
                                             class="basis-1/5 rounded-xl border-2 border-orange-400 flex justify-center items-center	">
-                                            <img class="w-6 h-6" src="/icons/orenshopingcart.png" alt="">
+                                            <img class="w-6 h-6" src="../icons/orenshopingcart.png" alt="">
                                         </button>
                                     </div>
 
@@ -617,8 +621,8 @@
             <section class="flex flex-wrap gap-4 p-4 md:flex-row md:px-32 md:gap-x-12 py-16">
                 <div class="flex flex-col gap-4">
                     <div class="flex flex-row gap-4">
-                        <img class="itemLogo h-6" src="/images/logoCoffee.png" alt="logoCoffee" />
-                        <img class="itemTulisanCoffee h-6" src="/images/coffeeShop.png" alt="" />
+                        <img class="itemLogo h-6" src="../images/logoCoffee.png" alt="logoCoffee" />
+                        <img class="itemTulisanCoffee h-6" src="../images/coffeeShop.png" alt="" />
                     </div>
     
                     <div>
@@ -654,15 +658,15 @@
                     <div class="flex flex-wrap md:flex-row gap-4 justify-between items-center  ">
     
                         <a href="">
-                            <img class="h-6" src="/icons/FbBlack.png" alt="">
+                            <img class="h-6" src="../icons/FbBlack.png" alt="">
                         </a>
     
                         <a href="">
-                            <img class="h-6" src="/icons/TweeterBlack.png" alt="">
+                            <img class="h-6" src="../icons/TweeterBlack.png" alt="">
                         </a>
     
                         <a href="">
-                            <img class="h-6" src="/icons/INstaBlack.png" alt="">
+                            <img class="h-6" src="../icons/INstaBlack.png" alt="">
                         </a>
     
                     </div>
