@@ -759,6 +759,10 @@ video {
   width: 100%;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
 .max-w-full {
   max-width: 100%;
 }
@@ -859,6 +863,10 @@ video {
   gap: 1rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .gap-x-1 {
   -moz-column-gap: 0.25rem;
        column-gap: 0.25rem;
@@ -892,6 +900,14 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
 }
 
 .overflow-x-scroll {
@@ -1010,6 +1026,57 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-lime-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(101 163 13 / var(--tw-bg-opacity));
+}
+
+.bg-green-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#88B788\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(136 183 136 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\.\.\/images\/kopiHome\.png\'\)\] {
+  background-image: url('../images/kopiHome.png');
+}
+
+.bg-\[url\(\'\.\.\/images\/\.png\'\)\] {
+  background-image: url('../images/.png');
+}
+
+.bg-\[url\(\'\.\.\/images\/HeaderProduct\.png\.png\'\)\] {
+  background-image: url('../images/HeaderProduct.png.png');
+}
+
+.bg-\[url\(\'\.\.\/images\/HeaderProduct\.png\'\)\] {
+  background-image: url('../images/HeaderProduct.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1084,6 +1151,11 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-base {
@@ -1262,20 +1334,8 @@ video {
     display: block;
   }
 
-  .md\:inline {
-    display: inline;
-  }
-
   .md\:flex {
     display: flex;
-  }
-
-  .md\:inline-flex {
-    display: inline-flex;
-  }
-
-  .md\:contents {
-    display: contents;
   }
 
   .md\:hidden {
@@ -1292,10 +1352,6 @@ video {
 
   .md\:h-80 {
     height: 20rem;
-  }
-
-  .md\:h-10 {
-    height: 2.5rem;
   }
 
   .md\:w-full {
@@ -1326,12 +1382,12 @@ video {
     justify-content: space-evenly;
   }
 
-  .md\:gap-8 {
-    gap: 2rem;
-  }
-
   .md\:gap-4 {
     gap: 1rem;
+  }
+
+  .md\:gap-8 {
+    gap: 2rem;
   }
 
   .md\:gap-x-12 {
