@@ -125,7 +125,7 @@
         
         <div class="flex flex-col md:flex-row gap-4 p-4">
             <div class="flex flex-col gap-4 basis-2/4 max-w-full max-h-fit">
-                <p class="text-2xl font-medium ">Order Information</p>
+                <p class="text-2xl font-medium text-wrap">Order Information</p>
 
                 <div class=" w-full  bg-gray-100">
                     <div class="flex-col flex gap-4 p-4">
@@ -135,15 +135,15 @@
                                 <img class="h-6 w-auto  " src="../icons/Fullname2.png" alt="">
                                 <div class="font-normal text-xl">Fullname</div>
                             </div>
-                            <div class="font-semibold text-xl mb-2">Galuh wizard</div>
+                            <div class="font-semibold text-xl text-wrap">Galuh wizard</div>
                         </div>
 
-                        <div class="flex-row flex  justify-between border-b-2	p-2">
+                        <div class="flex-row flex  justify-between border-b-2 p-2 gap-4">
                             <div class="flex flex-row gap-2 items-center ">
                                 <img class="h-6 w-auto  " src="../icons/Location.png" alt="">
                                 <div class="font-normal text-xl">Address</div>
                             </div>
-                            <div class="font-semibold text-xl mb-2">Griya bandung indah</div>
+                            <div class="font-semibold text-xl text-wrap">Griya bandung indah</div>
                         </div>
 
                         <div class="flex-row flex  justify-between border-b-2	p-2">
@@ -151,7 +151,7 @@
                                 <img class="h-6 w-auto  " src="../icons/telephone.png" alt="">
                                 <div class="font-normal text-xl">Phone</div>
                             </div>
-                            <div class="font-semibold text-xl mb-2">08771231235</div>
+                            <div class="font-semibold text-xl ">08771231235</div>
                         </div>
 
                         <div class="flex-row flex  justify-between border-b-2	p-2">
@@ -159,7 +159,7 @@
                                 <img class="h-6 w-auto  " src="../icons/postcard.png" alt="">
                                 <div class="font-normal text-xl">Payment Method</div>
                             </div>
-                            <div class="font-semibold text-xl mb-2">Cash</div>
+                            <div class="font-semibold text-xl ">Cash</div>
                         </div>
 
                         <div class="flex-row flex  justify-between border-b-2	p-2">
@@ -187,67 +187,71 @@
                 </div>
                 
             </div>
-           
-            <div class="flex flex-col gap-4 basis-2/4 max-w-full max-h-fit">
+
+            <div class="flex flex-col gap-4 basis-2/4 max-w-full max-h-fit md:w-full w-fit">
                 <p class="text-2xl font-medium ">Your Order</p>
-                <div class="flex flex-row gap-4 items-center bg-gray-100">
-                    <div class="foto basis-1/3 p-4">
-                        <img class="w-auto h-fit" src="../images/p2.png" alt="Sunset in the mountains">
+                <div class="flex flex-row md:flex-col gap-4">
+                    <div class="flex flex-col md:flex-row p-4 md:gap-4 items-center bg-gray-100">
+                        <div class="foto basis-1/3 p-4 hidden md:block">
+                            <img class="w-auto h-fit " src="../images/p2.png" alt="Sunset in the mountains">
+                        </div>
+        
+                        <div class="2/3 flex flex-row">
+                            <div class="flex flex-col gap-4">
+                                <div class="text-white  text-xl bg-red-700 border-2 rounded-3xl w-fit p-2">Flash Sale!
+                                </div>
+                                
+                                <div class="font-bold text-xl ">Hazelnut Latte</div>
+    
+                                <div class=" text-xl text-gray-400	">2 pcs | Regular | Ice | Dine In</div>
+        
+                                <div class="price flex flex-row gap-2">
+                                    <div class="first-price line-through text-red-800	">
+                                        <p>40.000</p>
+                                    </div>
+                                    <div class="discount-price text-2xl text-[#FF8906]">
+                                        <p>IDR 10.000</p>
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
                     </div>
     
-                    <div class="2/3 flex flex-row">
-                        <div class="flex flex-col gap-4">
-                            <div class="text-white  text-xl bg-red-700 border-2 rounded-3xl w-fit p-2">Flash Sale!
-                            </div>
-                            
-                            <div class="font-bold text-xl ">Hazelnut Latte</div>
-
-                            <div class=" text-xl text-gray-400	">2 pcs | Regular | Ice | Dine In</div>
-    
-                            <div class="price flex flex-row gap-2">
-                                <div class="first-price line-through text-red-800	">
-                                    <p>40.000</p>
+                    <div class="flex flex-col md:flex-row p-4 md:gap-4 items-center bg-gray-100">
+                        <div class="foto basis-1/3 p-4 hidden md:block">
+                            <img class="w-auto h-fit " src="../images/p2.png" alt="Sunset in the mountains">
+                        </div>
+        
+                        <div class="2/3">
+                            <div class="flex flex-col gap-4">
+                                <div class="text-white text-xl bg-red-700 border-2 rounded-3xl w-fit p-2">Flash Sale!
                                 </div>
-                                <div class="discount-price text-2xl text-[#FF8906]">
-                                    <p>IDR 10.000</p>
-                                </div>
-                            </div>
     
+                                <div class="font-bold text-xl ">Hazelnut Latte</div>
+    
+                                <div class=" text-xl text-gray-400	">2 pcs | Regular | Ice | Dine In</div>
+        
+                                <div class="price flex flex-row gap-2">
+                                    <div class="first-price line-through text-red-800	">
+                                        <p>40.000</p>
+                                    </div>
+                                    <div class="discount-price text-2xl text-[#FF8906]">
+                                        <p>IDR 10.000</p>
+                                    </div>
+                                </div>
+        
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex flex-row gap-4 items-center bg-gray-100">
-                    <div class="foto basis-1/3 p-4">
-                        <img class="w-auto h-fit" src="../images/p2.png" alt="Sunset in the mountains">
-                    </div>
-    
-                    <div class="2/3">
-                        <div class="flex flex-col gap-4">
-                            <div class="text-white text-xl bg-red-700 border-2 rounded-3xl w-fit p-2">Flash Sale!
-                            </div>
-
-                            <div class="font-bold text-xl ">Hazelnut Latte</div>
-
-                            <div class=" text-xl text-gray-400	">2 pcs | Regular | Ice | Dine In</div>
-    
-                            <div class="price flex flex-row gap-2">
-                                <div class="first-price line-through text-red-800	">
-                                    <p>40.000</p>
-                                </div>
-                                <div class="discount-price text-2xl text-[#FF8906]">
-                                    <p>IDR 10.000</p>
-                                </div>
-                            </div>
-    
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </main>
 
-    <footer class="tulisan bg-[#F8F8F8] w-full  ">
+    <footer class="tulisan bg-[#F8F8F8] w-full px-8">
 
         <section class="flex flex-wrap gap-4 p-4 md:flex-row md:px-32 md:gap-x-12 py-16">
             <div class="flex flex-col gap-4">

@@ -69,7 +69,7 @@
                             </svg>
                         </button>
                     </div>
-                    <div class="bg-white absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md  shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none text-black"
+                    <div class="bg-white absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md hidden shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none text-black"
                         role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
                         <div class="py-1" role="none">
                             <a href="index.html" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
@@ -98,7 +98,7 @@
         </nav>
     </header>
 
-    <main class=" flex flex-col px-16 py-8 gap-4">
+    <main class=" flex flex-col p-4 md:px-16 md:py-8 gap-4">
 
         <section class="flex flex-row gap-4 items-center">
             <p class="text-header  text-wrap text-3xl font-medium">History Order</p>
@@ -109,9 +109,9 @@
 
         <section class="flex flex-col md:flex-row w-full gap-4">
             
-            <div class="flex flex-col gap-4 md:gap-8 basis-3/5"> <!--order-->
+            <div class="flex flex-col gap-2 md:gap-8 basis-3/5"> <!--order-->
 
-                <div class="flex flex-row md:gap-8 justify-between pb-4"> <!--order date -->
+                <div class="flex flex-row gap-2 md:gap-8 justify-between pb-4"> <!--order date -->
                     <div class="flex flex-row bg-gray-100 items-center">
                         <button class="py-2 px-4 items-center hover:bg-white">
                             On Progress  
@@ -125,12 +125,12 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col gap-4"> <!--order list -->
-                    <div class="flex flex-row gap-4 items-start bg-gray-100">
-                        <div class="foto basis-1/5 p-4">
+                <div class="flex flex-wrap md:flex-col gap-4"> <!--order list -->
+                    <div class="flex flex-row gap-2 md:gap-4 items-start bg-gray-100">
+                        <div class="foto basis-1/5 p-4 hidden md:block">
                             <img class="w-auto h-fit" src="../images/p2.png" alt="Sunset in the mountains">
                         </div>
-        
+
                         <div class="basis-1/5 p-4 flex flex-col gap-2 justify-center">
 
                             <div class=" text-lg text-gray-400 flex flex-row gap-2 items-center">
@@ -181,11 +181,11 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-row gap-4 items-start bg-gray-100">
-                        <div class="foto basis-1/5 p-4">
+                    <div class="flex flex-row gap-2 md:gap-4 items-start bg-gray-100">
+                        <div class="foto basis-1/5 p-4 hidden md:block">
                             <img class="w-auto h-fit" src="../images/p2.png" alt="Sunset in the mountains">
                         </div>
-        
+
                         <div class="basis-1/5 p-4 flex flex-col gap-2 justify-center">
 
                             <div class=" text-lg text-gray-400 flex flex-row gap-2 items-center">
@@ -236,11 +236,11 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-row gap-4 items-start bg-gray-100">
-                        <div class="foto basis-1/5 p-4">
+                    <div class="flex flex-row gap-2 md:gap-4 items-start bg-gray-100">
+                        <div class="foto basis-1/5 p-4 hidden md:block">
                             <img class="w-auto h-fit" src="../images/p2.png" alt="Sunset in the mountains">
                         </div>
-        
+
                         <div class="basis-1/5 p-4 flex flex-col gap-2 justify-center">
 
                             <div class=" text-lg text-gray-400 flex flex-row gap-2 items-center">
@@ -291,11 +291,11 @@
                         </div>
                     </div>
 
-                    <div class="flex flex-row gap-4 items-start bg-gray-100">
-                        <div class="foto basis-1/5 p-4">
+                    <div class="flex flex-row gap-2 md:gap-4 items-start bg-gray-100">
+                        <div class="foto basis-1/5 p-4 hidden md:block">
                             <img class="w-auto h-fit" src="../images/p2.png" alt="Sunset in the mountains">
                         </div>
-        
+
                         <div class="basis-1/5 p-4 flex flex-col gap-2 justify-center">
 
                             <div class=" text-lg text-gray-400 flex flex-row gap-2 items-center">
@@ -346,9 +346,6 @@
                         </div>
                     </div>
 
-                    
-
-                    
                 </div>
 
                 <div class="flex flex-row gap-4 items-center justify-center"> <!--pagination -->
@@ -374,7 +371,7 @@
 
     </main>
 
-    <footer class="tulisan bg-[#F8F8F8] w-full  ">
+    <footer class="tulisan bg-[#F8F8F8] w-full  p-8">
 
         <section class="flex flex-wrap gap-4 p-4 md:flex-row md:px-32 md:gap-x-12 py-16">
             <div class="flex flex-col gap-4">
