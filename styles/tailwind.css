@@ -576,9 +576,9 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1076px) {
   .container {
-    max-width: 1024px;
+    max-width: 1076px;
   }
 }
 
@@ -1228,6 +1228,11 @@ video {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-orange-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-oren:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 137 6 / var(--tw-bg-opacity));
@@ -1236,11 +1241,6 @@ video {
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-orange-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
 }
 
 .focus\:outline-none:focus {
@@ -1270,12 +1270,12 @@ video {
     height: 1.5rem;
   }
 
-  .md\:h-80 {
-    height: 20rem;
-  }
-
   .md\:h-8 {
     height: 2rem;
+  }
+
+  .md\:h-80 {
+    height: 20rem;
   }
 
   .md\:basis-1\/5 {
@@ -1374,7 +1374,7 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1076px) {
   .lg\:flex-row {
     flex-direction: row;
   }
