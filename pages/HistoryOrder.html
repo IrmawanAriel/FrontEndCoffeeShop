@@ -12,13 +12,13 @@
         <nav class="flex flex-row justify-between items-center py-4 px-16 bg-black sticky top-0 hidden md:flex ">
             <div class="flex flex-row gap-4 items-center">
                 <div class="flex flex-row gap-4">
-                    <img class="itemLogo" src="../images/logoCoffee.png" alt="logoCoffee" />
-                    <img class="itemTulisanCoffee" src="../images/coffeeShop.png" alt="" />
+                    <img class="itemLogo h-10" src="../images/logoCoffee.png" alt="logoCoffee" />
+                    <img class="itemTulisanCoffee h-10" src="../images/coffeeShop.png" alt="" />
                 </div>
 
                 <div class="flex flex-row text-white gap-4">
-                    <a href="#">Home</a>
-                    <a href="../pages/product.html">Product</a>
+                    <a href="../Index.html">Home</a>
+                    <a href="../pages/Product.html">Product</a>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@
                 </div>
 
                 <button>
-                    <a href="../pages/login.html" class="border-2 border-white p-4 rounded">
+                    <a href="../pages/Login.html" class="border-2 border-white p-4 rounded">
                         Sign In
                     </a>
                 </button>
@@ -51,17 +51,19 @@
             <div
                 class="relative inline-block flex flex-row justify-between items-center py-2 px-4 bg-black sticky top-0  md:hidden ">
                 <div class="flex flex-row gap-4">
-                    <img class="itemLogo h-8" src="../images/logoCoffee.png" alt="logoCoffee" />
-                    <img class="itemTulisanCoffee h-8" src="../images/coffeeShop.png" alt="" />
+                    <img class="itemLogo h-6 md:h-8" src="../images/logoCoffee.png" alt="logoCoffee" />
+                    <img class="itemTulisanCoffee h-6 md:h-8" src="../images/coffeeShop.png" alt="" />
                 </div>
                 <div>
                     <div>
                         <button type="button"
-                            class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+                            class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-gray-100 px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
                             id="menu-button" aria-expanded="true" aria-haspopup="true">
+                            
+
                             <svg width="16px" height="16px" viewBox="0 0 24 24" id="three-dots" xmlns="http://www.w3.org/2000/svg">
                                 <g id="_20x20_three-dots--grey" data-name="20x20/three-dots--grey" transform="translate(24) rotate(90)">
-                                  <rect id="Rectangle" width="24" height="24" fill="none"../>
+                                  <rect id="Rectangle" width="16" height="16" fill="none"../>
                                   <circle id="Oval" cx="1" cy="1" r="1" transform="translate(5 11)" stroke="#000000" stroke-miterlimit="10" stroke-width="0.5"../>
                                   <circle id="Oval-2" data-name="Oval" cx="1" cy="1" r="1" transform="translate(11 11)" stroke="#000000" stroke-miterlimit="10" stroke-width="0.5"../>
                                   <circle id="Oval-3" data-name="Oval" cx="1" cy="1" r="1" transform="translate(17 11)" stroke="#000000" stroke-miterlimit="10" stroke-width="0.5"../>
@@ -72,23 +74,34 @@
                     <div class="bg-white absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md hidden shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none text-black"
                         role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
                         <div class="py-1" role="none">
-                            <a href="index.html" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+                            <a href="Index.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-300" role="menuitem" tabindex="-1"
                                 id="menu-item-0">Home</a>
-                            <a href="../pages/product.html" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+                            <a href="../pages/Product.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-300" role="menuitem" tabindex="-1"
                                 id="menu-item-1">Product</a>
+                            <a href="../pages/DetailOrder.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-300" role="menuitem" tabindex="-1"
+                                id="menu-item-1">Order Details</a>
+                            <a href="../pages/DetailProduct.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-300" role="menuitem" tabindex="-1"
+                                id="menu-item-1">Details Product</a>
+                            <a href="../pages/HistoryOrder.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-300" role="menuitem" tabindex="-1"
+                                id="menu-item-1">Orders History</a>
+                            <a href="../pages/CheckoutProduct.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-300" role="menuitem" tabindex="-1"
+                                id="menu-item-1">Checkout Product</a>
                         </div>
-                        <div class="py-1  " role="none">
-                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 flex flex-row" role="menuitem"
-                                tabindex="-1" id="menu-item-2"><img class="h-4 w-4" src="../icons/search.png" alt="" />
-                                Search </a>
-                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 flex flex-row" role="menuitem"
-                                tabindex="-1" id="menu-item-3"><img class="h-4 w-4" src="../icons/shopingcart.png"
-                                    alt="" /> Shooping Cart</a>
+                        <div class="py-1 " role="none">
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 flex flex-row gap-2 items-center hover:bg-orange-300" role="menuitem" tabindex="-1" id="menu-item-2">
+                                <img class="h-4 w-4" src="../icons/magnifying-glass.ico" alt="" />
+                                <p>Search</p> 
+                            </a>
+                            <a href="#" class="block px-4 py-2 text-sm text-gray-700 flex flex-row gap-2 items-center hover:bg-orange-300" role="menuitem"
+                                tabindex="-1" id="menu-item-3">
+                                <img class="h-4 w-4" src="../icons/shopping-cart.ico"alt="" /> 
+                                <p>Shooping Cart</p>
+                            </a>
                         </div>
                         <div class="py-1" role="none">
-                            <a href="../pages/login.html" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+                            <a href="../pages/Login.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-300" role="menuitem" tabindex="-1"
                                 id="menu-item-4"><button>Sign In</button></a>
-                            <a href="../pages/register.html" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1"
+                            <a href="../pages/Register.html" class="block px-4 py-2 text-sm text-gray-700 hover:bg-orange-300" role="menuitem" tabindex="-1"
                                 id="menu-item-5"><button>Sign Up</button></a>
                         </div>
                         
