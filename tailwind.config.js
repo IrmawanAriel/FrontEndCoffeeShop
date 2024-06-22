@@ -1,12 +1,15 @@
-/**  @type {import('tailwindcss').Config}  */
+/** 
+ * @type {import('tailwindcss').Config} 
+ */
 module.exports = {
-  content: ["./pages/*.{html,js}"],
+  content: ["./pages/*.{html,js}","*.html"],
   theme: { 
     
     extend: 
     {
       colors: {
         'oren': '#FF8906',
+        'gradblack' : 'linear-gradient(180deg, #000000 0%, #000000 100%)',
       },
       screens: {
         'sm': '640px',
